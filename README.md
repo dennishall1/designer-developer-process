@@ -18,6 +18,9 @@ First, a very brief correction of a common misconception.  Responsive web design
 
 "Mobile first" is an oft-heard anthem.  But it has only been enacted perhaps once or twice in Razorfish history to date. I think that UX might be doing a little better, but creative tends to design desktop first.  If different designers are assigned to desktop and mobile, they need to work very closely together, with daily cross-reviews at minimum.  Any time a change is made to either breakpoint, we must always think about how it will affect the other breakpoint(s)--and update the cr,ux for consistency.
 
+"Tablet" (or 'medium breakpoint').  The tablet breakpoint usually receives the least love, with the assumption often being that desktop will more or less just work here.  It _usually will not "just work"_.  An example of a frequent last-second compromise is to use the same global navigation as mobile for tablet because the full desktop navigation---at 960px width or more---simply won't fit at 7
+
+
 Practical Points:
 
 Order matters.  If a thing appears above or to the left of another thing on one breakpoint, it should never be to the right or below at another breakpoint.  The flow is just like reading: Left to right, top to bottom.
