@@ -7,7 +7,7 @@ Let's improve our designer-developer process.
 
 Once upon a time, I used to push for photoshop documents to be better organized.  But that never actually happened.  To this very day, every photoshop document I've opened, if you click the eye next to a layer group, does nothing, you still have to go into that folder and figure out which individual layers to turn on.  That is inefficient and demoralizing.
 
-Do developers really need photoshop?  I use pixel perfect chrome extension and have not needed to open a PSD in ages.  If I need a color, I either eye-dropper it, if it can be reliably eye-droppered (working from png32, and the color is a solid background or border color, eye dropper should not be used for text).  Otherwise, I ask the designer for the hex code.  And if I need to ask for a new color, I also ask for a reason we need another color, and ask that it be added to the style guide, which should be a living document that exists from the very conceptual stages of the project, through to the final handoff and beyond.
+Do developers really need photoshop?  I use pixel perfect chrome extension and have not needed to open a PSD in ages.  If I need a color, I have two options.  If I have a png32, and the color is a solid background or border color, I'll eye dropper the color.  Eye dropper should not be used for text.  If I either don't have a png32, or if it is a text color that has not already been established, I can ask the designer for the hex code.  And if I need to ask for a new color, I also ask for a reason we need another color, and ask that it be added to the style guide, which should be a living document that exists from the very conceptual stages of the project, through to the final handoff and beyond.
 
 
 ## Responsive Web Design
