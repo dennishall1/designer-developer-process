@@ -20,7 +20,6 @@ First, a very brief correction of a common misconception.  Responsive web design
 
 "Tablet" (or 'medium breakpoint').  The tablet breakpoint usually receives the least love, with the assumption often being that desktop will more or less just work here.  It _usually will not "just work"_.  An example of a frequent last-second compromise is to use the same global navigation as mobile for tablet because the full desktop navigation---at 960px width or more---simply won't fit at 768px, and due to legibility/usability, it is often not viable to try to make things smaller so they fit.  For example, a four-item-per-row layout likely needs to be three-items-per-row on tablet.
 
-
 Practical Points:
 
 Order matters.  If a thing appears above or to the left of another thing on one breakpoint, it should never be to the right or below at another breakpoint.  The flow is just like reading: Left to right, top to bottom.
@@ -30,6 +29,10 @@ The copy deck is not responsive.  We have occasionally made super-obscene-hackis
 Images.  If possible, I think that a responsive image service might be a good fit, such as cloudinary (http://cloudinary.com/blog/how_to_automatically_create_images_for_responsive_design).  If an image will only ever be as big as perhaps half the width of the content well, and not as big as half the width of the screen, then we can just go ahead and use the same image on all breakpoints.  However, if an image is meant to be full content well width, and especially if it is meant to be full screen width, we should probably have a mobile size image as well.  Any time that we want a different aspect ratio for one breakpoint versus another, we should strongly consider having a separate image for that instance, because simply cropping an image is usually less than ideal.
 
 Tablets and mobile devices have tricky hover states.  We design for them to not have hover states.  So things that might be revealed if hovered on desktop will have to be tapped on devices.  A common place that this comes up is for the global navigation, and is another reason that tablet -- even in landscape -- might end up receiving the mobile treatment (often termed 'hamburger') navigation.  Back to the part about it being 'tricky' -- many devices will attempt to honor hover states by treating the first tap as if it was a hover and not a click for things that are 'hoverable' on desktop.  This is primarily a development pain point, but should be at least on the radar for creatives.
+
+## Grid?
+
+Just because there is a layer in a psd that shows some red opacity columns, does not mean that the site adheres to a grid.
 
 
 ## Miscellaneous
