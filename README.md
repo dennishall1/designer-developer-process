@@ -37,7 +37,8 @@ Just because there is a layer in a psd that shows some red opacity columns, does
 
 ## Miscellaneous
 
-Try to get an accurate sense of how much text needs to go into a given spot.  Will this headline ever wrap to two lines? Three?  Do we need ellipses?  Character count?  What about the paragraph(s) that follow?  How tall could that potentially be?  Will we be translating the site?  How much longer will the text be in other languages?
+### Text
+Consider using viewport width units for text where appropriate.  Try to get an accurate sense of how much text needs to go into a given spot.  Will this headline ever wrap to two lines? Three?  Do we need ellipses?  Character count?  What about the paragraph(s) that follow?  How tall could that potentially be?  Will we be translating the site?  How much longer will the text be in other languages?
 
 Consistency.
 
